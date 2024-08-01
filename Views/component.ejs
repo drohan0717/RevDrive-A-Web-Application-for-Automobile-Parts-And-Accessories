@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/stylesforcomponents.css">
+  <title></title>
+</head>
+
+<body>
+
+  <div class="box" id="heading">
+
+    <h1><%= ECU[0].category %> </h1>
+
+  </div>
+  <div class="box">
+
+
+    <% for (let i=0; i<ECU.length ;i++){ %>
+    <div class="item">
+      <!-- <input type="checkbox" name="" value=""> -->
+<form class="item" action="/link"  method="post" name="">
+      <p><%= ECU[i].company      %>  :  <%=ECU[i].price%> </p><button type="submit" name="button" value=<%=ECU[i].company%> >+</button>
+      </form>
+    </div>
+    <%  }  %>
+<% let n = ECU[0].category; %>
+<% let m = n.toLowerCase(); %>
+<% let link = "/"+m+"Link"; %>
+
+
+      <!-- <input type="text" name="newItem"> -->
+      <!-- <button type="submit" name="button">+</button> -->
+
+  </div>
+
+
+</body>
+
+</html>

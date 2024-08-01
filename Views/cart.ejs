@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/stylesforcomponents.css">
+  <title></title>
+</head>
+
+<body>
+<% let total = 0; %>
+  <div class="box" id="heading">
+
+    <h1>Cart</h1>
+
+  </div>
+  <div class="box">
+
+
+    <% for (let i=0; i<COM.length ;i++){ %>
+    <div class="item">
+      <!-- <input type="checkbox" name="" value=""> -->
+
+      <p><%= COM[i].components      %>  :  <%=COM[i].balanceAmount%> </p>
+      <% total += COM[i].balanceAmount %>
+    </div>
+    <%  }  %>
+<div class="item">
+  <p>TOTAL       : <%= total %> </p>
+</div>
+
+    <form class="item" action="/cart" method="post">
+      <input type="text" name="newItem">
+      <button type="submit" name="button">CO</button>
+    </form>
+  </div>
+
+
+</body>
+
+</html>

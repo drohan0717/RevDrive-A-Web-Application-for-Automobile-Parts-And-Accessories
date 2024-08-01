@@ -1,0 +1,169 @@
+#title{
+  /* background-color: #0B6623; */
+   /* background-color: #6f2da8;  */
+  /* background-color: #f9a602; */
+  background-color: #120136;
+/* background-color: #142850; */
+    color:black;
+
+}
+body{
+  margin: 0;
+}
+
+.bg {
+  background-image: url("pencil.jpg");
+  opacity: 80%;
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+.navbar-brand{
+  font-family: 'Lobster', cursive;
+  font-size: 2.5rem !important;
+  color: black !important;
+}
+.nav-link{
+  font-family: 'Montserrat', sans-serif;
+  color: black !important;
+}
+
+h1{
+  color:black;
+  opacity: 100%;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 50px;
+  width: 60%;
+  font-size: 3.5rem !important;
+  line-height: 1.5;
+}
+.container_fluid {
+  padding: 2% 15% 10% 15%;
+}
+.btn{
+  margin:3% auto;
+}
+#about{
+
+  color: #120136;
+
+  font-family: 'Montserrat', sans-serif;
+  padding:7% 15% 14%;
+  line-height: 2;
+  text-align: center;
+
+
+background-color: #fff;
+
+}
+
+.abtp{
+  padding-top: 50px;
+}
+/* .abt-head{
+  text-align: center;
+}
+.abt-desc1{
+  text-align: left;
+  width: 50%;
+}
+.abt-desc2{
+  text-align: right;
+  width: 50%;
+} */
+
+/* .abt{
+
+  width: 100%
+  height:100%
+} */
+h2{
+  text-align: center;
+  font-weight: bold !important;
+  line-height: 1.5;
+  font-size: 3rem !important;
+}
+.about-desc{
+  margin-top: 50px;
+  line-height: 2;
+  width: 50%;
+  color: #8f8f8f;
+}
+
+#features{
+color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  padding:3% 15% 14%;
+  background-color: #142850;
+   background-image: url("cars.jpg");
+   background-position: center;
+
+}
+
+.carbtn{
+  margin-left: 100px;
+}
+
+.carousel-inner{
+padding-top: 10%;
+}
+.feature-text{
+  line-height: 2;
+  text-align: center;
+  width: 60%;
+  margin: auto auto;
+}
+.btnn{
+  padding-top: 10%;
+}
+
+
+
+
+
+#team{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  line-height: 2;
+  padding:3% 15% 14%;
+  background-color: #fff;
+
+}
+.team-heading{
+  color: #142850;
+}
+.team-desc{
+  color: #8f8f8f;
+  padding-top: 4%;
+}
+.timg{
+  width:200px;
+  height:200px;
+  margin: 50px auto;
+  border-radius: 100%;
+}
+#footer{
+  text-align: center;
+  padding: auto 5%;
+  background-color: #222831;
+  background-color:
+}
+.soc{
+
+  padding: 5% 3%
+}
+.socimg{
+  color: black;
+}
+.socimg:hover{
+  color: white;
+}
+h4{
+  color: #8f8f8f;
+  font-family: 'Montserrat', sans-serif;
+}
