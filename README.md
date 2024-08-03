@@ -21,7 +21,7 @@ To set up the project locally, follow these steps:
 
 1. **Clone the repository**:
    ```sh
-   git clone https://github.com/yourusername/revdrive.git
+   https://github.com/drohan0717/RevDrive-A-Web-Application-for-Automobile-Parts-And-Accessories.git
 
 2. **Initialize Node Package Manager**:
    ```sh
