@@ -40,3 +40,11 @@ To set up the project locally, follow these steps:
 7. **Setup up your mongodatabase in your root folder and start Mongo Server**
    ```sh
    mongod
+
+## Usage
+
+** Once the application is up and running, you can:**
+1. Browse categories and products.
+2. Add items to your shopping cart.
+3. View and manage the shopping cart.
+4. Proceed to checkout.
