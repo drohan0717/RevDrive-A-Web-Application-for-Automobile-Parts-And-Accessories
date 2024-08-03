@@ -43,7 +43,7 @@ To set up the project locally, follow these steps:
 
 ## Usage
 
-** Once the application is up and running, you can:**
+**Once the application is up and running, you can:**
 1. Browse categories and products.
 2. Add items to your shopping cart.
 3. View and manage the shopping cart.
